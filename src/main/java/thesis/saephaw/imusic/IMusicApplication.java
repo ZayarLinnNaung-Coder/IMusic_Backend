@@ -1,4 +1,4 @@
-package thesis.zayarlinnhtet.volt_hunger;
+package thesis.saephaw.imusic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

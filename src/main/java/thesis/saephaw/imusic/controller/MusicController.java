@@ -1,15 +1,15 @@
-package thesis.zayarlinnhtet.volt_hunger.controller;
+package thesis.saephaw.imusic.controller;
 
 import lombok.AllArgsConstructor;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
-import thesis.zayarlinnhtet.volt_hunger.domain.NewMusicRequest;
-import thesis.zayarlinnhtet.volt_hunger.entity.Artists;
-import thesis.zayarlinnhtet.volt_hunger.entity.Music;
-import thesis.zayarlinnhtet.volt_hunger.entity.MusicCategory;
-import thesis.zayarlinnhtet.volt_hunger.repo.ArtistRepo;
-import thesis.zayarlinnhtet.volt_hunger.repo.MusicCategoryRepo;
-import thesis.zayarlinnhtet.volt_hunger.repo.MusicRepo;
+import thesis.saephaw.imusic.domain.NewMusicRequest;
+import thesis.saephaw.imusic.entity.Artists;
+import thesis.saephaw.imusic.entity.Music;
+import thesis.saephaw.imusic.entity.MusicCategory;
+import thesis.saephaw.imusic.repo.ArtistRepo;
+import thesis.saephaw.imusic.repo.MusicCategoryRepo;
+import thesis.saephaw.imusic.repo.MusicRepo;
 
 import java.util.List;
 

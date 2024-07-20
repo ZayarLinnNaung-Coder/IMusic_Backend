@@ -1,4 +1,4 @@
-package thesis.zayarlinnhtet.volt_hunger.domain;
+package thesis.saephaw.imusic.domain;
 
 import lombok.Getter;
 import lombok.Setter;

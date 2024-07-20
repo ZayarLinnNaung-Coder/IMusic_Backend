@@ -1,7 +1,7 @@
-package thesis.zayarlinnhtet.volt_hunger.repo;
+package thesis.saephaw.imusic.repo;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
-import thesis.zayarlinnhtet.volt_hunger.entity.MusicCategory;
+import thesis.saephaw.imusic.entity.MusicCategory;
 
 public interface MusicCategoryRepo extends MongoRepository<MusicCategory, String> {
 }

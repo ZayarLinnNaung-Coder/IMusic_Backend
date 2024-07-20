@@ -1,4 +1,4 @@
-package thesis.zayarlinnhtet.volt_hunger;
+package thesis.saephaw.imusic;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

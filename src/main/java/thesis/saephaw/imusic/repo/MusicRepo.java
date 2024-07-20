@@ -1,8 +1,8 @@
-package thesis.zayarlinnhtet.volt_hunger.repo;
+package thesis.saephaw.imusic.repo;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
-import thesis.zayarlinnhtet.volt_hunger.entity.Music;
+import thesis.saephaw.imusic.entity.Music;
 
 import java.util.List;
 

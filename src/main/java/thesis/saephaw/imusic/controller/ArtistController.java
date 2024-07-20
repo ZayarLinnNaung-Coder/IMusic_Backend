@@ -1,9 +1,9 @@
-package thesis.zayarlinnhtet.volt_hunger.controller;
+package thesis.saephaw.imusic.controller;
 
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
-import thesis.zayarlinnhtet.volt_hunger.entity.Artists;
-import thesis.zayarlinnhtet.volt_hunger.repo.ArtistRepo;
+import thesis.saephaw.imusic.entity.Artists;
+import thesis.saephaw.imusic.repo.ArtistRepo;
 
 import java.util.List;
 

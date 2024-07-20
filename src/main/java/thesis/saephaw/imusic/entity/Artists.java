@@ -1,4 +1,4 @@
-package thesis.zayarlinnhtet.volt_hunger.entity;
+package thesis.saephaw.imusic.entity;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,7 +1,7 @@
-package thesis.zayarlinnhtet.volt_hunger.repo;
+package thesis.saephaw.imusic.repo;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
-import thesis.zayarlinnhtet.volt_hunger.entity.Artists;
+import thesis.saephaw.imusic.entity.Artists;
 
 public interface ArtistRepo extends MongoRepository<Artists, String> {
 }

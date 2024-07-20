@@ -9,4 +9,4 @@ COPY target/imusic-0.0.1-SNAPSHOT.jar imusic.jar
 EXPOSE 8080
 
 #execute the application
-ENTRYPOINT ["java","-jar","/chat-service.jar"]
+ENTRYPOINT ["java","-jar","/imusic.jar"]
