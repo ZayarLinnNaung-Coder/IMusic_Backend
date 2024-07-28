@@ -3,6 +3,7 @@ package thesis.saephaw.imusic.controller;
 import lombok.AllArgsConstructor;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
+import thesis.saephaw.imusic.domain.FavMusicRequest;
 import thesis.saephaw.imusic.domain.NewMusicRequest;
 import thesis.saephaw.imusic.entity.Artists;
 import thesis.saephaw.imusic.entity.Music;
@@ -53,6 +54,19 @@ public class MusicController {
     @GetMapping("{id}")
     Music getMusicById(@PathVariable String id) {
         return musicRepo.findById(id).get();
+    }
+
+    @GetMapping("fav")
+    List<Music> getAllFavoriteMusic() {
+        return musicRepo.findByFavorite(true);
+    }
+
+    @PostMapping("fav/{id}")
+    void makeFavorite(@PathVariable String id, @RequestBody FavMusicRequest request) {
+
+        Music music = musicRepo.findById(id).get();
+        music.setFavorite(request.isFavorite());
+        musicRepo.save(music);
     }
 
 }

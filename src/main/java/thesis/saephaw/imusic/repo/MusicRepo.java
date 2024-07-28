@@ -11,4 +11,6 @@ public interface MusicRepo extends MongoRepository<Music, String> {
     @Query("{ 'artists.id': ?0 }")
     List<Music> findByArtistId(String artistId);
 
+    List<Music> findByFavorite(boolean favorite);
+
 }

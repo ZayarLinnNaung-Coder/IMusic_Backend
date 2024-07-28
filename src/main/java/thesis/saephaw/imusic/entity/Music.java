@@ -17,6 +17,7 @@ public class Music {
     private String description;
     private String imageUrl;
     private String url;
+    private boolean favorite;
 
     @DBRef
     private MusicCategory musicCategory;
